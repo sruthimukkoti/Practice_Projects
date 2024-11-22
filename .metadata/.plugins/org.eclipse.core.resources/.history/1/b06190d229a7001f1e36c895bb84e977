@@ -1,0 +1,17 @@
+package java_projects;
+
+import java.util.Date;
+
+public class DateCalender {
+	public static void main(String[] args)
+	{
+		
+	}
+	
+public void date()
+{
+	Date d = new Date();
+	System.out.println(d.toString());
+}
+
+}

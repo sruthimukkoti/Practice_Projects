@@ -1,0 +1,8 @@
+package java_projects;
+
+import java.util.Scanner;
+
+public class program2 {
+
+	Scanner sc = new Scanner(System.in);
+}

@@ -1,0 +1,29 @@
+package java_projects;
+
+import java.util.Scanner;
+
+public class program2 {
+	public static void main(String[] args)
+	{
+	Scanner sc = new Scanner(System.in);
+	int n=sc.nextInt();
+	sc.close();
+	int sum=0,rem;
+	while(n!=0)
+	{
+    rem=n%10;
+    rem=rem*rem*rem;
+    sum=sum+rem;
+    n=n/10;
+	}
+	if(sum==n)
+	{
+	System.out.println("Armstrong");
+	}
+	else {
+	System.out.println("not Armstrong");
+	}
+		
+}
+}
+

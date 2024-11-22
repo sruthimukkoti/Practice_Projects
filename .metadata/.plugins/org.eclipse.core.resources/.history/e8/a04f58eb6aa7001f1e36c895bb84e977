@@ -1,0 +1,18 @@
+package java_projects;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class program14 {
+
+	public static void main(String[] args) throws IOException
+	{
+		FileReader fr = new FileReader("C:\\Users\\saisruthi.mukkoti\\eclipse-workspace\\java_projects\\src\\java_projects\\read.txt");
+		BufferedReader reader=new BufferedReader(fr);
+		String str=reader.readLine();
+		System.out.println(str.length());
+	}
+	
+	}
+
