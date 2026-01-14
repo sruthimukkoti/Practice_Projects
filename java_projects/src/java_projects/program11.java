@@ -81,9 +81,9 @@ public static void pyramid2()
 public static void pyramid3()
 {
 	int k=1;
-	for (int i=1;i<=4;i++)
+	for (int i=4;i>=1;i--)
 	{	
-		for(int j=0;j<=4-i;j++)
+		for(int j=i;j>=1;j--)
 		{
 			System.out.print(k);
 			System.out.print("\t");
